@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Veículos</title>
+
+    <link rel="stylesheet" href="css/style_veiculo.css">
+</head>
+
+<body>
+
+    <h1>Cadastro de Veículos</h1>
+
+    <div id="div-formulario">
+
+        <h3>Dados do Veículo</h3>
+
+        <form id="formulario-veiculo">
+
+            <label for="modelo">Modelo</label>
+            <input type="text" id="modelo">
+
+            <br><br>
+
+            <label for="marca">Marca</label>
+            <input type="text" id="marca">
+
+            <br><br>
+
+            <label for="placa">Placa</label>
+            <input type="text" id="placa">
+
+            <br><br>
+
+            <label for="ano">Ano</label>
+            <input type="number" id="ano">
+
+            <br><br>
+
+            <label for="valor">Valor do Veículo</label>
+            <input type="number" id="valor">
+
+            <br><br>
+
+            <h4>Combustível</h4>
+
+            <input type="radio" name="combustivel" value="gasolina">
+            <label>Gasolina</label>
+
+            <input type="radio" name="combustivel" value="etanol">
+            <label>Etanol</label>
+
+            <input type="radio" name="combustivel" value="bicombustivel">
+            <label>Bicombustível</label>
+
+            <input type="radio" name="combustivel" value="hibrido">
+            <label>Híbrido</label>
+
+            <input type="radio" name="combustivel" value="eletrico">
+            <label>Elétrico</label>
+
+            <br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
+        </form>
+
+    </div>
+
+    <div id="div-dados">
+
+        <h2>Veículos Cadastrados</h2>
+
+    </div>
+
+    <script type="module" src="js/script_veiculo.js"></script>
+
+</body>
+</html>

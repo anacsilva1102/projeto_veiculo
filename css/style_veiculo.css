@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff0f5;
+}
+
+h1{
+    color: #c2185b;
+}
+
+h2{
+    color: #ad1457;
+}
+
+h3, h4{
+    color: #880e4f;
+}
+
+#div-formulario{
+    background-color: white;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #f8bbd0;
+    border-radius: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"]{
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #f48fb1;
+    border-radius: 5px;
+}
+
+input[type="radio"]{
+    margin-top: 10px;
+}
+
+button{
+    background-color: #ec407a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c21bd8;
+}
+
+#div-dados{
+    width: 550px;
+    margin: 20px auto;
+}
+
+.carro{
+    background-color: white;
+    border: 2px solid #f8bbd0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.carro p{
+    margin: 8px 0;
+}
